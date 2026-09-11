@@ -10,6 +10,7 @@ export function createSurvey() {
 
   survey.showProgressBar = "top";
   survey.showNavigationButtons = true;
+  survey.showTOC = true;
   survey.startSurveyText = "Let's get started ...";
 
   addStartPage(survey);

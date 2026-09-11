@@ -7,7 +7,7 @@ export function addAboutPage(survey: Model) {
   aboutPage.showNavigationButtons = true;
 
   const name = aboutPage.addNewQuestion("text", "name");
-  name.title = "Your name";
+  name.title = "Dein Name";
   name.isRequired = false;
 
   const email = aboutPage.addNewQuestion("text", "email");
