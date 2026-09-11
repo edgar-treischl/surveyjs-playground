@@ -40,7 +40,7 @@ function LandingPage({ onStartSurvey }: { onStartSurvey: () => void }) {
             (e.target as HTMLButtonElement).style.transform = "scale(1)";
           }}
         >
-          Start Survey
+          Let's get started ... 
         </button>
 
         <div style={{ marginTop: "60px", paddingTop: "40px", borderTop: "1px solid #e5e5e5" }}>
